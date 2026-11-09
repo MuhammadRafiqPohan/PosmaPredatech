@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="bgGradM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1f2" />
+      <stop offset="100%" stop-color="#fce7f3" />
+    </linearGradient>
+    <linearGradient id="maroonM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f1d1d" />
+      <stop offset="100%" stop-color="#450a0a" />
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="76" fill="url(#bgGradM)" stroke="#fecdd3" stroke-width="4"/>
+  <!-- Hair & Head -->
+  <path d="M50 62 C50 38 62 30 80 30 C98 30 110 38 110 62 C110 74 108 82 80 84 C52 82 50 74 50 62 Z" fill="url(#maroonM)" />
+  <circle cx="80" cy="65" r="24" fill="#fde68a" />
+  <path d="M54 52 C54 38 64 32 80 32 C96 32 106 38 106 52 C96 46 88 48 80 44 C72 48 64 46 54 52 Z" fill="#450a0a" />
+  <!-- Suit / Shoulders -->
+  <path d="M30 142 C30 112 50 100 80 100 C110 100 130 112 130 142 Z" fill="url(#maroonM)" />
+  <!-- Tie & Shirt collar -->
+  <polygon points="80,102 70,118 80,138 90,118" fill="#ffffff" />
+  <polygon points="80,112 76,138 80,146 84,138" fill="#e11d48" />
+  <!-- Eyes -->
+  <circle cx="73" cy="65" r="2.5" fill="#450a0a" />
+  <circle cx="87" cy="65" r="2.5" fill="#450a0a" />
+  <path d="M76 74 Q80 77 84 74" fill="none" stroke="#450a0a" stroke-width="2" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <defs>
+    <linearGradient id="maroonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#800000" />
+      <stop offset="50%" stop-color="#a4161a" />
+      <stop offset="100%" stop-color="#590d22" />
+    </linearGradient>
+    <linearGradient id="puzzleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#800000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Puzzle Research Emblem -->
+  <g transform="translate(10, 10)">
+    <!-- Gear circle background -->
+    <circle cx="40" cy="40" r="38" fill="url(#maroonGrad)" filter="url(#glow)"/>
+    <circle cx="40" cy="40" r="34" fill="none" stroke="#fecdd3" stroke-width="2" stroke-dasharray="4 2"/>
+    
+    <!-- Central stylized Puzzle Piece -->
+    <path d="M28 26 h 8 a 6 6 0 0 1 8 0 h 8 v 8 a 6 6 0 0 1 0 8 v 8 h -8 a 6 6 0 0 0 -8 0 h -8 v -8 a 6 6 0 0 0 0 -8 z" fill="#ffffff" />
+    <circle cx="40" cy="30" r="3" fill="#800000" />
+    <circle cx="50" cy="40" r="3" fill="#800000" />
+    <circle cx="40" cy="50" r="3" fill="#800000" />
+    <circle cx="30" cy="40" r="3" fill="#800000" />
+    
+    <!-- Binary / Tech Dots -->
+    <circle cx="20" cy="20" r="2" fill="#fecdd3" opacity="0.8"/>
+    <circle cx="60" cy="20" r="2" fill="#fecdd3" opacity="0.8"/>
+    <circle cx="20" cy="60" r="2" fill="#fecdd3" opacity="0.8"/>
+    <circle cx="60" cy="60" r="2" fill="#fecdd3" opacity="0.8"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(98, 25)">
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="24" font-weight="900" fill="#800000" letter-spacing="1">PREDATECH</text>
+    <text x="0" y="42" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#4b5563" letter-spacing="0.5">PUZZLE RESEARCH DATA TECHNOLOGY</text>
+    <text x="0" y="55" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="8.5" font-weight="600" fill="#9f1239">POSMA &bull; UIN SULTAN SYARIF KASIM RIAU</text>
+  </g>
+</svg>
